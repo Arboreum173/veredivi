@@ -1,0 +1,117 @@
+{
+	"siteName": "Veredivi",
+	"nicknameMinLength": 2,
+	"nicknameMaxLength": 20,
+	"passwordMinLength": 8,
+	"passwordMaxLength": 25,
+	"defaultError": "Oops, something went wrong!",
+	"nicknameTooShort": "A valid nickname has to be at least {{nicknameMinLength}} characters long.",
+	"nicknameTooLong": "A valid nickname can only be up to {{nicknameMinLength}} characters long.",
+	"nicknameInvalid": "A nickname can only consist of letters and numbers.",
+	"nicknameTaken": "Someone else already has your nickname. Please choose another one.",
+	"nicknameNotFound": "An account with that nickname could not be found.",
+	"passwordLength": "A good password is at least 14 characters long.",
+	"passwordLetterCase": "Your password should contain at least 2 uppercase and 2 lowercase letters.",
+	"passwordNumbers": "Your password should contain at least 2 numbers.",
+	"passwordSpecial": "Your password should contain at least 2 special characters, such as “!” and “?”.",
+	"passwordExcellent": "This looks like a great password!",
+	"gameMinLength": 2,
+	"gameMaxLength": 20,
+	"responses": [
+		{
+			"id": 1,
+			"type": "error",
+			"text": "Bad request, please try again."
+		},
+		{
+			"id": 2,
+			"type": "error",
+			"text": "Token is invalid, please try again."
+		},
+		{
+			"id": 3,
+			"type": "error",
+			"text": "Token timed out, please try again."
+		},
+		{
+			"id": 4,
+			"type": "error",
+			"text": "Please type in your nickname and choose a passsword."
+		},
+		{
+			"id": 5,
+			"type": "error",
+			"text": "Your nickname has to be at least {{nicknameMinLength}} characters long."
+		},
+		{
+			"id": 6,
+			"type": "error",
+			"text": "Your nickname cannot be longer than {{nicknameMaxLength}} characters."
+		},
+		{
+			"id": 7,
+			"type": "error",
+			"text": "Your nickname can only consist of letters and numbers."
+		},
+		{
+			"id": 8,
+			"type": "error",
+			"text": "Your nickname is already taken. Please choose another one."
+		},
+		{
+			"id": 9,
+			"type": "error",
+			"text": "Your password has to be at least {{passwordMinLength}} characters long."
+		},
+		{
+			"id": 10,
+			"type": "error",
+			"text": "Your password cannot be longer than {{passwordMaxLength}} characters."
+		},
+		{
+			"id": 11,
+			"type": "error",
+			"text": "Your password has to contain at least 1 lowercase letter and 1 uppercase letter."
+		},
+		{
+			"id": 12,
+			"type": "error",
+			"text": "Your password has to contain at least 1 number."
+		},
+		{
+			"id": 13,
+			"type": "error",
+			"text": "Your password has to contain at least 1 special character, e.g. “!” or “?”."
+		},
+		{
+			"id": 14,
+			"type": "error",
+			"text": "The password does not match the confirmation password."
+		},
+		{
+			"id": 15,
+			"type": "success",
+			"text": "Welcome {{currentNickname}}! You successfully created your brand-new account."
+		},
+		{
+			"id": 16,
+			"type": "error",
+			"text": "Please enter your nickname and password."
+		},
+		{
+			"id": 17,
+			"type": "error",
+			"text": "An account with that nickname could not be found."
+		},
+		{
+			"id": 18,
+			"type": "error",
+			"text": "The password is incorrect."
+		},
+		{
+			"id": 19,
+			"type": "error",
+			"text": "Welcome back, {{currentNickname}}! We‘re glad to see you."
+		}
+	]
+}
